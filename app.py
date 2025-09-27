@@ -13,7 +13,8 @@ uploaded_files = st.file_uploader(
 
 # Read token properly
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-REPO_NAME = "alishad846/Student_project_01"
+REPO_NAME = "alishad846/Project-submission-students"
+
 FOLDER_NAME = "submissions"
 
 g = Github(GITHUB_TOKEN)
